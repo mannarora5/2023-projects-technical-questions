@@ -25,6 +25,10 @@ export interface TableContents {
 }
 
 export default function Table() {
+  // useState hook 
+
+  
+
   const [contents, useContents] = useState<TableContents>({
     columnTitles: ['Alert', 'Status', 'Updates'],
     rowContents: [
